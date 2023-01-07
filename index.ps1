@@ -20,6 +20,6 @@ while($input1 -ne "q"){
 
 for($i=0; $i -lt $arr.count-1 ; $i++){
     for($j=0; $j -lt $arr1.count -1; $j++){
-Write-host "value1 : " $arr[$i] " " $arr1[$j]
+Write-host "value : " $arr[$i] " " $arr1[$j]
     }
 }
